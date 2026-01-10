@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Welcome to Park Planner!")
+                .font(.title)
+                .fontWeight(.bold)
         }
         .padding()
     }
